@@ -1,43 +1,102 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border-width: 0px;
-  border-style: initial;
-  border-color: initial;
-  border-image: initial;
+.navbar {
+  background-color: #a61e69;
+  overflow: hidden;
 }
 
-.submenu-item .submenu-item__content {
-  line-height: 24px;
-  margin-top: -4px;
+.nav-links {
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+  gap: 4em;
+  font-size: 20px;
 }
 
-#main-menu,
-.card__testimonial blockquote div,
-.tabs,
-blockquote {
-  font-size: 1.125rem;
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
 }
 
-ul {
-  list-style-type: circle;
-  list-style-position: inside;
+.nav-links a:hover {
+  background-color: #ffffff48;
+  transition: #fff 0.3s ease;
+  border-radius: 5px;
 }
 
-@media only screen and (max-width: 55.9375rem) {
-  #main-menu .main_site li.menu-item-has-children .sub-menu li,
-  .sticky-menu .main_site li.menu-item-has-children .sub-menu li {
-    margin-bottom: 0px;
-  }
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-block: 0px;
+}
+
+.pre-title {
+  margin: 18px;
+  margin-inline: 30px;
+  color: #a61e69b7;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+.title {
+  width: 40%;
+  margin: 18px;
+  margin-inline: 30px;
+}
+
+.sub-title {
+  margin: 18px;
+  margin-inline: 30px;
+}
+
+.least-title {
+  margin: 18px;
+  margin-inline: 30px;
+  font-size: large;
+}
+
+.page-pattern {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: justify;
+  gap: 2em;
+  width: 50%;
+  margin: 40px;
+}
+
+.btn {
+  margin: 30%;
+  margin-inline: 30px;
+}
+
+.btn1 {
+  padding-block: 20px;
+  padding-inline: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff;
+  background-color: #a61e69;
+}
+
+.btn2 {
+  padding-block: 20px;
+  padding-inline: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: none;
+  color: #a61e69;
+  background-color: rgb(205, 243, 243);
 }
