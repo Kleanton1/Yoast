@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-  background-color: #a61e69;
+  background-color: #9c1f6b;
   overflow: hidden;
 }
 
@@ -28,14 +28,7 @@ body {
   color: #fff;
 }
 
-.nav-links a:hover {
-  background-color: #ffffff48;
-  transition: #fff 0.3s ease;
-  border-radius: 5px;
-}
-
 .logo {
-  color: #fff;
   font-size: 24px;
   font-weight: bold;
   margin-block: 0px;
@@ -70,9 +63,9 @@ body {
 .page-pattern {
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: justify;
-  gap: 2em;
+  gap: 2px;
   width: 50%;
   margin: 40px;
 }
@@ -141,10 +134,6 @@ body {
   font-weight: 400;
 }
 
-.page-pattern {
-  margin-bottom: 88px;
-}
-
 .wp-image {
   max-width: 100%;
   height: 48px;
@@ -152,22 +141,110 @@ body {
   border: solid 2px #d1d5db;
   border-radius: 50%;
 }
+
 .image-container {
   max-width: 8%;
+  display: inline;
 }
 
 .flex-group {
   width: 50%;
-  margin: 55px;
+  margin: 24px;
 }
 
 .layout-flow {
   margin-left: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .text-layout {
+  display: grid;
+  flex-direction: row;
+}
+
+.text1 {
   line-height: 1.5rem;
   font-weight: 600;
   font-size: 1rem;
+}
+
+.bottom-layer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.feature-product {
+  margin-bottom: 88px;
+}
+
+.info-product {
+  display: grid;
+  align-items: stretch;
+  -webkit-box-align: stretch;
+  box-sizing: inherit;
+}
+
+.product-container {
+  display: grid;
+  align-items: stretch;
+  height: 100%;
+}
+
+.block-column {
+  display: flex;
+  align-items: stretch;
+}
+
+.is-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+}
+
+.product-card {
+  max-width: 588px;
+  width: 50%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.product-card_image {
+  margin: -24px -24px 20px;
+  overflow: hidden;
+  display: block;
+  width: 80%;
+  aspect-ratio: 544 / 308;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  max-width: 100%;
+  height: 80%;
+  transition: 0.1s linear;
+}
+
+.product-card__product-info {
+  margin-top: auto;
+  color: #4b5563;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  display: grid;
+  column-gap: 1.25rem;
+  grid-template-columns: 1fr 40px;
+}
+
+.info-cart {
+  color: #9c1f6b;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #f9f1f6;
+  border-radius: 3px;
 }
